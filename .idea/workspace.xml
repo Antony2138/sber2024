@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82fd31ae-50de-4b94-88a3-3b6923cbed6b" name="Changes" comment="cjplfk">
-      <change afterPath="$PROJECT_DIR$/ContextOne/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContextOne/src/main/java/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContextOne/src/main/java/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContextOne/src/main/java/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContextOne/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContextOne/src/main/java/Parrot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContextOne/src/main/java/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="82fd31ae-50de-4b94-88a3-3b6923cbed6b" name="Changes" comment="сделал)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,11 +59,19 @@
       <option name="project" value="LOCAL" />
       <updated>1720534804179</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="сделал)">
+      <created>1720535975722</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720535975722</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cjplfk" />
-    <option name="LAST_COMMIT_MESSAGE" value="cjplfk" />
+    <MESSAGE value="сделал)" />
+    <option name="LAST_COMMIT_MESSAGE" value="сделал)" />
   </component>
 </project>
