@@ -1,9 +1,13 @@
 package org.example;
 
+import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class Main {
-    public static void main(String[] args) {
+
+public class TestMain {
+
+    @Test
+    public void TestFirst(){
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
         People human = context.getBean(People.class);
         human.getParrot().setName("Кеша");
