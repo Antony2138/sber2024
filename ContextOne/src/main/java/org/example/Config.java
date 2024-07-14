@@ -2,6 +2,7 @@ package org.example;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 
 
 @Configuration
@@ -18,6 +19,7 @@ public class Config{
     }
 
     @Bean
+    @Primary
     Parrot parrot() {
         return new Parrot("голубчик");
     }

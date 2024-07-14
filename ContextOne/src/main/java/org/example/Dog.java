@@ -7,5 +7,4 @@ import lombok.Data;
 @AllArgsConstructor
 public class Dog {
     private String name;
-    private String height;
 }
