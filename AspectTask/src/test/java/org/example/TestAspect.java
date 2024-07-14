@@ -1,5 +1,6 @@
 package org.example;
 
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.junit.Test;
@@ -8,11 +9,10 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import java.util.ArrayList;
 import java.util.List;
 
-
+@Slf4j
 public class TestAspect {
-        private static final Log log = LogFactory.getLog(TestAspect.class);
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
-        Notebook notebook = context.getBean(Notebook.class);
+        private AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
+        private Notebook notebook = context.getBean(Notebook.class);
 
 
         @Test

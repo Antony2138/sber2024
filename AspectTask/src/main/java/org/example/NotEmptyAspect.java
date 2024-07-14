@@ -8,6 +8,7 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
+import java.rmi.AccessException;
 import java.util.Collection;
 
 @Aspect
@@ -19,15 +20,17 @@ public class NotEmptyAspect {
         Object[] args = joinPoint.getArgs();
         for (Object arg : args) {
             if (arg == null) {
-                System.out.println("Argument is null");
+                throw new CusExeption("Argument is null");
             }
             if (arg instanceof String && ((String) arg).isEmpty()) {
-                System.out.println("String is null");
+                throw new CusExeption("String is null");
             }
             if (arg instanceof Collection && ((Collection<?>) arg).isEmpty()) {
-                System.out.println("Collection is empty");
+                throw new CusExeption("Collection is empty");
             }
         }
         return joinPoint.proceed();
     }
+    @Pointcut("@annotation(NotEmpty)")
+    public void methodsAnnotatedWithNotEmpty() {}
 }
